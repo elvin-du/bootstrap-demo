@@ -17,7 +17,7 @@ objs.push(row2);
 $(document).ready(function() {
 	$("th").click(function() {
 		console.log($(this).context.innerText);
-	});
+	});	
 
 	console.log(objs.length);
 
